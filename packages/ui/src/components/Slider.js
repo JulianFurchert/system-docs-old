@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import SystemTypes from '@styled-system/prop-types'
 import { css, space, layout } from '../system-functions'
-import { COLOR_SCHEMES } from '../theme'
+import { COLOR_SCHEMES } from '../theme-functions'
 
 
 const Wrapper = styled('div')(
@@ -116,7 +116,7 @@ const InnerTrack = styled('div')(({ scheme }) =>
 );
 
 export const Slider = ({
-  scheme = 'secondary',
+  scheme = 'primary',
   name,
   min = 0,
   max = 100,

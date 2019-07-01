@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import SystemTypes from '@styled-system/prop-types'
 import { css, layout, space } from '../system-functions'
-import { COLOR_SCHEMES } from '../theme'
+import { COLOR_SCHEMES } from '../theme-functions'
 import { Icon } from './Icon'
 
 const CheckboxWrapper = styled('label')(

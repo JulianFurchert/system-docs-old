@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, select } from '@storybook/addon-knobs';
 import { IconButton } from './IconButton';
 import { Box } from './Box';
-import { COLOR_SCHEMES } from '../theme'
+import { COLOR_SCHEMES } from '../theme-functions'
 
 const stories = storiesOf('Controls|IconButton', module );
 stories.addDecorator(withKnobs);

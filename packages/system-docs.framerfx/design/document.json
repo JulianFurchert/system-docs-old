@@ -15,7 +15,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.068750000000000006,
+            "centerAnchorX" : 0.066796875000000006,
             "centerAnchorY" : 0.44062499999999999,
             "children" : [
 
@@ -98,15 +98,15 @@
             "rotation" : 0,
             "top" : 339,
             "visible" : true,
-            "width" : 126,
+            "width" : 121,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.25390625,
-            "centerAnchorY" : 0.47437499999999999,
+            "centerAnchorX" : 0.25507812499999999,
+            "centerAnchorY" : 0.44062499999999999,
             "children" : [
 
             ],
@@ -170,7 +170,7 @@
             "id" : "vo0BsLJQZ",
             "intrinsicHeight" : 200,
             "intrinsicWidth" : 200,
-            "left" : 262,
+            "left" : 268,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -186,16 +186,16 @@
             "radiusTopRight" : 0,
             "right" : null,
             "rotation" : 0,
-            "top" : 366,
+            "top" : 339,
             "visible" : true,
-            "width" : 126,
+            "width" : 117,
             "widthType" : 0
           },
           {
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.25390625,
+            "centerAnchorX" : 0.16171874999999999,
             "centerAnchorY" : 0.44062499999999999,
             "children" : [
 
@@ -260,7 +260,7 @@
             "id" : "FPOABDd4v",
             "intrinsicHeight" : 200,
             "intrinsicWidth" : 200,
-            "left" : 262,
+            "left" : 146,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -278,7 +278,7 @@
             "rotation" : 0,
             "top" : 339,
             "visible" : true,
-            "width" : 126,
+            "width" : 122,
             "widthType" : 0
           },
           {
@@ -1334,7 +1334,7 @@
             "__class" : "CodeComponentNode",
             "aspectRatio" : null,
             "bottom" : null,
-            "centerAnchorX" : 0.09765625,
+            "centerAnchorX" : 0.096093750000000006,
             "centerAnchorY" : 0.10625,
             "children" : [
 
@@ -1399,7 +1399,7 @@
             "id" : "BzrglK4fx",
             "intrinsicHeight" : 200,
             "intrinsicWidth" : 200,
-            "left" : 25,
+            "left" : 23,
             "locked" : false,
             "name" : null,
             "opacity" : 1,
@@ -1695,68 +1695,7 @@
         "centerAnchorX" : 0,
         "centerAnchorY" : 0,
         "children" : [
-          {
-            "__class" : "CodeComponentNode",
-            "aspectRatio" : null,
-            "bottom" : 26,
-            "centerAnchorX" : 0.130859375,
-            "centerAnchorY" : 0.49875000000000003,
-            "children" : [
 
-            ],
-            "clip" : true,
-            "codeComponentIdentifier" : "framer\/Stack",
-            "codeComponentProps" : {
-              "alignment" : "center",
-              "direction" : "vertical",
-              "distribution" : "start",
-              "gap" : 10,
-              "padding" : 0,
-              "paddingBottom" : 0,
-              "paddingLeft" : 0,
-              "paddingPerSide" : false,
-              "paddingRight" : 0,
-              "paddingTop" : 0
-            },
-            "codeOverrideEnabled" : false,
-            "constraintsLocked" : false,
-            "deviceType" : null,
-            "exportOptions" : [
-
-            ],
-            "fillColor" : "rgba(255,255,255,1)",
-            "fillEnabled" : false,
-            "fillImage" : null,
-            "fillImagePixelHeight" : null,
-            "fillImagePixelWidth" : null,
-            "fillImageResize" : "fill",
-            "fillType" : "color",
-            "height" : 750,
-            "heightType" : 0,
-            "id" : "B_lVFFhwK",
-            "intrinsicHeight" : null,
-            "intrinsicWidth" : null,
-            "left" : 23,
-            "locked" : false,
-            "name" : null,
-            "opacity" : 1,
-            "originalid" : null,
-            "parentid" : "xS3_q0PeG",
-            "previewSettings" : null,
-            "radius" : 0,
-            "radiusBottomLeft" : 0,
-            "radiusBottomRight" : 0,
-            "radiusIsRelative" : false,
-            "radiusPerCorner" : false,
-            "radiusTopLeft" : 0,
-            "radiusTopRight" : 0,
-            "right" : null,
-            "rotation" : 0,
-            "top" : 24,
-            "visible" : true,
-            "width" : 289,
-            "widthType" : 0
-          }
         ],
         "clip" : true,
         "codeOverrideEnabled" : false,

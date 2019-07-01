@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import PropTypes from 'prop-types'
 import SystemTypes from '@styled-system/prop-types'
 import { css, layout, space } from '../system-functions'
-import { COLOR_SCHEMES } from '../theme'
+import { COLOR_SCHEMES } from '../theme-functions'
 
 export const StyledButton = styled.button( ({
   variant = 'fill',
@@ -26,7 +26,7 @@ export const StyledButton = styled.button( ({
     outline: 'none',
     WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
     textDecoration: 'none',
-    transition: 'all 200ms ease-in-out',
+    // transition: 'all 200ms ease-in-out',
     '&::-moz-focus-inner': {
       border: 0,
     },
@@ -35,6 +35,7 @@ export const StyledButton = styled.button( ({
     height: size === 'default' ? 5 : 6,
     fontSize: size === 'default' ? 1 : 2,
     px: size === 'default' ? 2 : 3,
+    variant: size === 'default' ? 'textStyles.button' : 'textStyles.buttonLarge',
     // fill
     ...( variant === 'fill' && {
       color: `${scheme}.on`,

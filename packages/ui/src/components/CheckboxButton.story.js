@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs';
 import { CheckboxButton } from './CheckboxButton';
 import { Box } from './Box';
-import { COLOR_SCHEMES } from '../theme'
+import { COLOR_SCHEMES } from '../theme-functions'
 
 
 const stories = storiesOf('Controls|CheckboxButton', module );

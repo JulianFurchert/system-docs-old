@@ -4,11 +4,10 @@ import {theme as defaultTheme} from './theme';
 
 const getTheme = (theme) => theme ? ( theme.systemDocs ? theme.systemDocs : defaultTheme) : defaultTheme;
 
-export const css = ({key, ...style}) => (props) => {
+export const css = ( styles ) => ( props ) => {
   let theme = getTheme(props.theme);
   return systemCss({
-  ...style,
-  ...get(theme, `styles.${key}`, {})
+  ...styles,
   })(theme)
 }
 
@@ -57,3 +56,7 @@ export const grid = ({theme, ...props}) => {
   return styledSystem.grid(newProps)
 }
 
+export const shadow = ({theme, ...props}) => {
+  let newProps = { theme: getTheme(theme), ...props }
+  return styledSystem.shadow(newProps)
+}
