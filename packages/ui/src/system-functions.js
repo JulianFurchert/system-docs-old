@@ -26,3 +26,34 @@ export const color = ({theme, ...props}) => {
   let newProps = { theme: getTheme(theme), ...props }
   return styledSystem.color(newProps)
 }
+
+export const typography = ({theme, ...props}) => {
+  let newProps = { theme: getTheme(theme), ...props }
+  return styledSystem.typography(newProps)
+}
+
+export const flexbox = ({theme, ...props}) => {
+  let newProps = { theme: getTheme(theme), ...props }
+  return styledSystem.flexbox(newProps)
+}
+
+export const border = ({theme, ...props}) => {
+  let newProps = { theme: getTheme(theme), ...props }
+  return styledSystem.border(newProps)
+}
+
+export const background = ({theme, ...props}) => {
+  let newProps = { theme: getTheme(theme), ...props }
+  return styledSystem.background(newProps)
+}
+
+export const position = ({theme, ...props}) => {
+  let newProps = { theme: getTheme(theme), ...props }
+  return styledSystem.position(newProps)
+}
+
+export const grid = ({theme, ...props}) => {
+  let newProps = { theme: getTheme(theme), ...props }
+  return styledSystem.grid(newProps)
+}
+

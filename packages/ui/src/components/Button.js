@@ -75,7 +75,7 @@ export const StyledButton = styled.button( ({
   space
 )
 
-export const Button = ({text, ...props}) => (
+export const Button = ({text = "button", ...props}) => (
   <StyledButton {...props} >
     {text}
   </StyledButton>
