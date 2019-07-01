@@ -60,7 +60,7 @@ const FakeCheckbox = styled('div')( ({ scheme }) =>
 
 export const CheckboxButton = ({
   scheme = "primary",
-  text,
+  text = 'checkboxButton',
   icon,
   checked,
   onChange,
