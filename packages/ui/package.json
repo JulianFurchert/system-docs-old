@@ -36,6 +36,8 @@
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
+    "develop": "yarn storybook && rollup -w",
+    "watch": "npm run rollup -w",
     "build-storybook": "build-storybook",
     "watch": "npm run clean && rollup -w",
     "build": "npm run clean && rollup -c",
