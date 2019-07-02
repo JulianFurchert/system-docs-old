@@ -9,6 +9,7 @@ import { Icon } from './Icon'
 const CheckboxWrapper = styled('label')(
   {
     position: 'relative',
+    display: 'inline-block'
   },
   layout,
   space
@@ -34,6 +35,8 @@ const Input = styled('input')({
 const FakeCheckbox = styled('div')( ({ scheme }) =>
   css({
     display: 'inline-flex',
+    width: '100%',
+    height: '100%',
     lineHeight: 1,
     fontFamily: 'normal',
     fontWeight: 400,
@@ -82,7 +85,7 @@ export const CheckboxButton = ({
         onChange={
           isControlled
             ? onChange
-            : event => setStateValue(Number(event.target.value))
+            : event => setIsChecked(event.target.checked)
         }
       />
       <FakeCheckbox scheme={scheme}>

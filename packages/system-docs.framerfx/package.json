@@ -4,6 +4,7 @@
 	"main": "dist/index.js",
 	"license": "MIT",
 	"devDependencies": {
+		"@framer/framer.device-skin-apple-iphone8-gold": "^1.0.0",
 		"@types/react": "^16.8"
 	},
 	"peerDependencies": {
@@ -15,6 +16,7 @@
 	},
 	"author": "Julian Furchert",
 	"dependencies": {
+		"@framer/benjamin.input": "^1.2.0",
 		"@framer/benjamin.slider": "^1.9.0",
 		"@framer/steveruizok.education": "^1.178.0",
 		"@styled-system/css": "^5.0.5",
