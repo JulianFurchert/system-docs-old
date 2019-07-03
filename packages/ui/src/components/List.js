@@ -23,9 +23,9 @@ export const StyledRow = styled.div(
   color
 )
 
-export const Row = ({key = "key", value = "value", ...props}) => (
+export const Row = ({token = "token", value = "value", ...props}) => (
   <StyledRow {...props} >
-    <Text as="span" textStyle="list">{key}</Text>
+    <Text as="span" textStyle="list">{token}</Text>
     <Text as="span" textStyle="list">{value}</Text>
   </StyledRow>
 )

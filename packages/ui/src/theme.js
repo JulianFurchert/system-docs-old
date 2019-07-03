@@ -23,14 +23,14 @@ export const theme = {
     none: 0,
     smallComponents: 4,
     mediumComponents: 4,
-    largeComponents: 8
+    largeComponents: 4
   },
   shadows: {
     none: 'none',
     smallComponents: 'none',
     mediumComponents: 'none',
-    // largeComponents: 'none'
-    largeComponents: '0 0 1px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.05), 0 10px 20px rgba(0,0,0,.1)'
+    largeComponents: 'none',
+    // largeComponents: '0 0 1px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.05), 0 10px 20px rgba(0,0,0,.1)'
   },
   borders: [
     'none',
@@ -122,7 +122,8 @@ export const theme = {
       color: 'text.1',
       fontFamily: 'normal',
       fontWeight: 'regular',
-      fontSize: 3
+      fontSize: 3,
+      lineHeight: 1.4,
     },
     buttonLarge: {
       fontFamily: 'normal',

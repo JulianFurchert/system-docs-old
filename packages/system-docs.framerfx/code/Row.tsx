@@ -2,8 +2,8 @@ import * as React from "react"
 import { addPropertyControls, ControlType } from "framer"
 import * as Ui from "../../ui"
 
-export function Row({ value, key, width, height }) {
-    return <Ui.Row key={key} value={value} width={width} height={height} />
+export function Row({ value, token, width, height }) {
+    return <Ui.Row token={token} value={value} width={width} height={height} />
 }
 
 Row.defaultProps = {
@@ -12,9 +12,9 @@ Row.defaultProps = {
 }
 
 addPropertyControls(Row, {
-    key: {
+    token: {
         type: ControlType.String,
-        defaultValue: "Key",
+        defaultValue: "Token",
     },
     value: {
         type: ControlType.String,

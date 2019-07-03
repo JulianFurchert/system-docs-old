@@ -24,22 +24,22 @@ const trackStyle = {
 const thumbStyle = {
   appearance: 'none',
   borderRadius: '50%',
-  height: '16px',
-  width: '16px',
-  marginTop: '-7px',
+  height: '12px',
+  width: '12px',
+  marginTop: '-5px',
   color: 'white',
 };
 
 const thumbFocusStyle = {
-  height: '20px',
-  width: '20px',
-  marginTop: '-9px',
+  height: '16px',
+  width: '16px',
+  marginTop: '-7px',
 };
 
 const thumbHoverStyle = {
-  height: '18px',
-  width: '18px',
-  marginTop: '-8px',
+  height: '14px',
+  width: '14px',
+  marginTop: '-6px',
 };
 
 const Input = styled('input')( ({ scheme }) =>
