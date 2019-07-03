@@ -6,3 +6,6 @@ export { IconButton } from './components/IconButton'
 export { Select } from './components/Select'
 export { Slider } from './components/Slider'
 export { Text } from './components/Text'
+export { Row } from './components/List'
+export { MenuButton } from './components/MenuButton'
+

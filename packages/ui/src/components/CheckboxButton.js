@@ -47,7 +47,7 @@ const FakeCheckbox = styled('div')( ({ scheme }) =>
     color: 'text.inactive',
     height: 5,
     px: 2,
-    borderRadius: 4,
+    borderRadius: 'smallComponents',
     WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
     [`${Input}:checked + &`]: {
       color: `${scheme}.1`,
@@ -93,7 +93,7 @@ export const CheckboxButton = ({
           <Icon
             name={icon}
             size={ 15 }
-            color={ isChecked ? `${scheme}.on` : `'text.inactive'`}
+            color={ isChecked ? `${scheme}` : `'text.inactive'`}
           />
         ) : text }
       </FakeCheckbox>

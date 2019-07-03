@@ -36,7 +36,7 @@ const StyledSelect = styled('select')( ({ scheme }) =>
     fontWeight: 400,
     padding: 0,
     fontSize:  1,
-    borderRadius: 4,
+    borderRadius: 'smallComponents',
     px: 2,
     color: `${scheme}.1`,
     border: 'none',

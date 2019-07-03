@@ -2,13 +2,14 @@ import * as React from "react"
 import { addPropertyControls, ControlType } from "framer"
 import * as Ui from "../../ui"
 
-export function CheckboxButton({ width, text, scheme, checked }) {
+export function CheckboxButton({ width, text, scheme, checked, icon }) {
     return (
         <Ui.CheckboxButton
             text={text}
             scheme={scheme}
             checked={checked}
             width={width}
+            icon={icon}
         />
     )
 }
@@ -33,5 +34,9 @@ addPropertyControls(CheckboxButton, {
         type: ControlType.Boolean,
         title: "checked",
         defaultValue: true,
+    },
+    icon: {
+        type: ControlType.String,
+        placeholder: "https://feathericons.com/",
     },
 })

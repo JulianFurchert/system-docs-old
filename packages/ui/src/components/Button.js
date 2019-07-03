@@ -14,7 +14,7 @@ export const StyledButton = styled.button( ({
     margin:0,
     display: 'flex',
     cursor: 'pointer',
-    alginItem: 'center',
+    alignItems: 'center',
     justifyContent: 'center',
     width: 'auto',
     fontFamily: 'normal',
@@ -35,6 +35,7 @@ export const StyledButton = styled.button( ({
     height: size === 'default' ? 5 : 6,
     fontSize: size === 'default' ? 1 : 2,
     px: size === 'default' ? 2 : 3,
+    borderRadius: size === 'default' ? 'smallComponents' : 'mediumComponents',
     variant: size === 'default' ? 'textStyles.button' : 'textStyles.buttonLarge',
     // fill
     ...( variant === 'fill' && {

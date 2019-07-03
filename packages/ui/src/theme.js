@@ -4,7 +4,7 @@ export const theme = {
   colors: {
     primary: createPalette("#0055FF"),
     secondary: createPalette("#0099FF"),
-    text: createPalette("#151515"),
+    text: createPalette("#242424"),
     code: createPalette("#0055FF"),
     background: "#F6F6F6",
     sidebar: "#FFFFFF",
@@ -29,6 +29,7 @@ export const theme = {
     none: 'none',
     smallComponents: 'none',
     mediumComponents: 'none',
+    // largeComponents: 'none'
     largeComponents: '0 0 1px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.05), 0 10px 20px rgba(0,0,0,.1)'
   },
   borders: [
@@ -64,6 +65,7 @@ export const theme = {
     15,
     20,
     25,
+    30,
     35,
     40,
     45,
@@ -72,53 +74,76 @@ export const theme = {
   ],
   textStyles: {
     h1: {
-      font: 'normal',
+      color: 'text.1',
+      fontFamily: 'normal',
       fontSize: 5,
       fontWeight: 'regular'
     },
     h2: {
-      font: 'normal',
-      fontSize: 4
+      color: 'text.1',
+      fontFamily: 'normal',
+      fontSize: 4,
+      fontWeight: 'regular'
     },
     h3: {
-      font: 'normal',
-      fontSize: 3
+      color: 'text.1',
+      fontFamily: 'normal',
+      fontSize: 3,
+      fontWeight: 'regular'
     },
     h4: {
-      font: 'normal',
+      color: 'text.1',
+      fontFamily: 'normal',
       fontSize: 2,
+      fontWeight: 'regular',
       textTransform: 'uppercase'
     },
     h5: {
-      font: 'normal',
+      fontFamily: 'normal',
       fontSize: 1,
+      fontWeight: 'regular',
       textTransform: 'uppercase'
     },
     h6: {
-      font: 'normal',
+      color: 'text.1',
+      fontFamily: 'normal',
       fontSize: 1,
+      fontWeight: 'regular',
       textTransform: 'uppercase'
     },
     subtitle: {
-      font: 'normal',
+      color: 'text.1',
+      fontFamily: 'normal',
       fontSize: 1,
+      fontWeight: 'regular',
       textTransform: 'uppercase'
     },
     bodyText: {
-      font: 'normal',
+      color: 'text.1',
+      fontFamily: 'normal',
+      fontWeight: 'regular',
       fontSize: 3
     },
     buttonLarge: {
-      font: 'normal',
+      fontFamily: 'normal',
       fontSize: 2,
+      fontWeight: 'regular'
     },
     button: {
-      font: 'normal',
+      fontFamily: 'normal',
       fontSize: 1,
+      fontWeight: 'regular'
     },
     code: {
-      font: 'mono',
-      fontSize: 2
+      fontFamily: 'mono',
+      fontSize: 1,
+      fontWeight: 'regular'
+    },
+    list: {
+      color: 'text.1',
+      fontFamily: 'mono',
+      fontSize: 0,
+      fontWeight: 'regular'
     },
   },
   styles: {

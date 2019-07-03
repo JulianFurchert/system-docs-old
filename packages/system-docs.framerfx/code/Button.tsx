@@ -10,9 +10,7 @@ export function Button({ width, text, variant, scheme, size }) {
             scheme={scheme}
             size={size}
             width={width}
-        >
-            Example
-        </Ui.Button>
+        />
     )
 }
 
